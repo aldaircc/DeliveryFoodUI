@@ -1,5 +1,5 @@
 //
-//  Onboarding.swift
+//  SplashView.swift
 //  DeliveryFoodUI
 //
 //  Created by Aldair Raul Cosetito Coral on 27/10/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Onboarding: View {
+struct SplashView: View {
     var body: some View {
         VStack(alignment: .center) {
             ZStack(alignment: .center) {
@@ -34,8 +34,8 @@ struct Onboarding: View {
     }
 }
 
-struct Onboarding_Previews: PreviewProvider {
+struct SplashView_Previews: PreviewProvider {
     static var previews: some View {
-        Onboarding()
+        SplashView()
     }
 }

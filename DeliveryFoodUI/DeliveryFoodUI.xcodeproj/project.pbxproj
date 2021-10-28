@@ -13,7 +13,7 @@
 		521BF47E2729FB81006E5E9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521BF47D2729FB81006E5E9D /* Preview Assets.xcassets */; };
 		521BF4892729FB81006E5E9D /* DeliveryFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BF4882729FB81006E5E9D /* DeliveryFoodUITests.swift */; };
 		521BF4942729FB81006E5E9D /* DeliveryFoodUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BF4932729FB81006E5E9D /* DeliveryFoodUIUITests.swift */; };
-		521BF4A52729FDDE006E5E9D /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BF4A42729FDDE006E5E9D /* Onboarding.swift */; };
+		521BF4A52729FDDE006E5E9D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BF4A42729FDDE006E5E9D /* OnboardingView.swift */; };
 		521BF4A92729FFB4006E5E9D /* Viga-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4A82729FFAC006E5E9D /* Viga-Regular.ttf */; };
 		521BF4AD272A0190006E5E9D /* Inter-VariableFont_slnt,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4AC272A018D006E5E9D /* Inter-VariableFont_slnt,wght.ttf */; };
 		521BF4B7272A01B8006E5E9D /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4B5272A01B4006E5E9D /* Inter-Thin.ttf */; };
@@ -25,6 +25,7 @@
 		521BF4BD272A01B8006E5E9D /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4B4272A01B4006E5E9D /* Inter-Black.ttf */; };
 		521BF4BE272A01B8006E5E9D /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4AE272A01B4006E5E9D /* Inter-SemiBold.ttf */; };
 		521BF4BF272A01B8006E5E9D /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4B6272A01B4006E5E9D /* Inter-Light.ttf */; };
+		521BF4C2272A3117006E5E9D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BF4C1272A3117006E5E9D /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +58,7 @@
 		521BF48F2729FB81006E5E9D /* DeliveryFoodUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeliveryFoodUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		521BF4932729FB81006E5E9D /* DeliveryFoodUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryFoodUIUITests.swift; sourceTree = "<group>"; };
 		521BF4952729FB81006E5E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		521BF4A42729FDDE006E5E9D /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		521BF4A42729FDDE006E5E9D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		521BF4A82729FFAC006E5E9D /* Viga-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Viga-Regular.ttf"; sourceTree = "<group>"; };
 		521BF4AC272A018D006E5E9D /* Inter-VariableFont_slnt,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-VariableFont_slnt,wght.ttf"; sourceTree = "<group>"; };
 		521BF4AE272A01B4006E5E9D /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -69,6 +70,7 @@
 		521BF4B4272A01B4006E5E9D /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
 		521BF4B5272A01B4006E5E9D /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
 		521BF4B6272A01B4006E5E9D /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		521BF4C1272A3117006E5E9D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,17 +161,18 @@
 		521BF4A22729FDB8006E5E9D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				521BF4A32729FDBE006E5E9D /* Onboarding */,
+				521BF4C0272A30FB006E5E9D /* SplashView */,
+				521BF4A32729FDBE006E5E9D /* OnboardingView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		521BF4A32729FDBE006E5E9D /* Onboarding */ = {
+		521BF4A32729FDBE006E5E9D /* OnboardingView */ = {
 			isa = PBXGroup;
 			children = (
-				521BF4A42729FDDE006E5E9D /* Onboarding.swift */,
+				521BF4A42729FDDE006E5E9D /* OnboardingView.swift */,
 			);
-			path = Onboarding;
+			path = OnboardingView;
 			sourceTree = "<group>";
 		};
 		521BF4A62729FF9F006E5E9D /* Resources */ = {
@@ -212,6 +215,14 @@
 				521BF4AC272A018D006E5E9D /* Inter-VariableFont_slnt,wght.ttf */,
 			);
 			path = Inter;
+			sourceTree = "<group>";
+		};
+		521BF4C0272A30FB006E5E9D /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				521BF4C1272A3117006E5E9D /* SplashView.swift */,
+			);
+			path = SplashView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,7 +365,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				521BF4A52729FDDE006E5E9D /* Onboarding.swift in Sources */,
+				521BF4A52729FDDE006E5E9D /* OnboardingView.swift in Sources */,
+				521BF4C2272A3117006E5E9D /* SplashView.swift in Sources */,
 				521BF4792729FB80006E5E9D /* ContentView.swift in Sources */,
 				521BF4772729FB80006E5E9D /* DeliveryFoodUIApp.swift in Sources */,
 			);
