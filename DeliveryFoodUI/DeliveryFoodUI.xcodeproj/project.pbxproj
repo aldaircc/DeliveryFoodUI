@@ -27,6 +27,7 @@
 		521BF4BF272A01B8006E5E9D /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4B6272A01B4006E5E9D /* Inter-Light.ttf */; };
 		521BF4C2272A3117006E5E9D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BF4C1272A3117006E5E9D /* SplashView.swift */; };
 		521E2FF6272B4E6E00BCC9D5 /* BentonSans Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 521E2FF5272B4E6800BCC9D5 /* BentonSans Bold.otf */; };
+		521E2FFA272B62A000BCC9D5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521E2FF9272B62A000BCC9D5 /* LoginView.swift */; };
 		52C13240272AE92300BB8C33 /* BentonSans Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52C1323F272AE91B00BB8C33 /* BentonSans Book.otf */; };
 		52C13244272B1A3200BB8C33 /* PagingBannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C13243272B1A3200BB8C33 /* PagingBannerViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -75,6 +76,7 @@
 		521BF4B6272A01B4006E5E9D /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
 		521BF4C1272A3117006E5E9D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		521E2FF5272B4E6800BCC9D5 /* BentonSans Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BentonSans Bold.otf"; sourceTree = "<group>"; };
+		521E2FF9272B62A000BCC9D5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		52C1323F272AE91B00BB8C33 /* BentonSans Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BentonSans Book.otf"; sourceTree = "<group>"; };
 		52C13243272B1A3200BB8C33 /* PagingBannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingBannerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,6 +170,7 @@
 		521BF4A22729FDB8006E5E9D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				521E2FF8272B629700BCC9D5 /* LoginView */,
 				521BF4C0272A30FB006E5E9D /* SplashView */,
 				521BF4A32729FDBE006E5E9D /* OnboardingView */,
 			);
@@ -231,6 +234,14 @@
 				521BF4C1272A3117006E5E9D /* SplashView.swift */,
 			);
 			path = SplashView;
+			sourceTree = "<group>";
+		};
+		521E2FF8272B629700BCC9D5 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				521E2FF9272B62A000BCC9D5 /* LoginView.swift */,
+			);
+			path = LoginView;
 			sourceTree = "<group>";
 		};
 		52C1323E272AE90A00BB8C33 /* BentoSans */ = {
@@ -400,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521E2FFA272B62A000BCC9D5 /* LoginView.swift in Sources */,
 				521BF4A52729FDDE006E5E9D /* OnboardingView.swift in Sources */,
 				521BF4C2272A3117006E5E9D /* SplashView.swift in Sources */,
 				521BF4792729FB80006E5E9D /* ContentView.swift in Sources */,

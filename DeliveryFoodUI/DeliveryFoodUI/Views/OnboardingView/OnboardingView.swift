@@ -82,3 +82,64 @@ struct Onboarding_Previews: PreviewProvider {
         OnboardingView()
     }
 }
+
+/* Forma de Hacer banner automatico cada 2 segundos.
+ 
+ 
+ enum BannerContentType: CaseIterable, Identifiable {
+     case first
+     case second
+     case third
+     
+     var id: Self { self }
+     
+     @ViewBuilder
+     func getView() -> some View {
+         switch self {
+         case .first:
+             Text("1️⃣")
+         case .second:
+             ZStack {
+                 Text("2️⃣")
+             }
+         case .third:
+             ZStack {
+                 Text("3️⃣")
+             }
+         }
+     }
+ }
+
+ extension CaseIterable where Self: Equatable {
+     func next() -> Self {
+         let all = Self.allCases
+         let idx = all.firstIndex(of: self)!
+         let next = all.index(after: idx)
+         return all[next == all.endIndex ? all.startIndex : next]
+     }
+ }
+ 
+ @State var selectedItem: BannerContentType = .second
+ @StateObject var vm = PagingBannerViewModel()
+ 
+ var body: some View {
+ TabView(selection: $selectedItem) {
+ ForEach(BannerContentType.allCases) {
+ $0
+ .getView()
+ .tag($0)
+ }
+ }
+ .tabViewStyle(PageTabViewStyle())
+ .background(Color.black)
+ .frame(height: 200)
+ .onChange(of: selectedItem, perform: { newValue in
+ vm.onChangeBanner(to: newValue)
+ })
+ .onReceive(vm.$bannerType) { banner in
+ withAnimation {
+ selectedItem = banner
+ }
+ }
+ }
+ */
