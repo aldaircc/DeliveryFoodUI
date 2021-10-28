@@ -26,6 +26,9 @@
 		521BF4BE272A01B8006E5E9D /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4AE272A01B4006E5E9D /* Inter-SemiBold.ttf */; };
 		521BF4BF272A01B8006E5E9D /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4B6272A01B4006E5E9D /* Inter-Light.ttf */; };
 		521BF4C2272A3117006E5E9D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BF4C1272A3117006E5E9D /* SplashView.swift */; };
+		521E2FF6272B4E6E00BCC9D5 /* BentonSans Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 521E2FF5272B4E6800BCC9D5 /* BentonSans Bold.otf */; };
+		52C13240272AE92300BB8C33 /* BentonSans Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52C1323F272AE91B00BB8C33 /* BentonSans Book.otf */; };
+		52C13244272B1A3200BB8C33 /* PagingBannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C13243272B1A3200BB8C33 /* PagingBannerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,9 @@
 		521BF4B5272A01B4006E5E9D /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
 		521BF4B6272A01B4006E5E9D /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
 		521BF4C1272A3117006E5E9D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		521E2FF5272B4E6800BCC9D5 /* BentonSans Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BentonSans Bold.otf"; sourceTree = "<group>"; };
+		52C1323F272AE91B00BB8C33 /* BentonSans Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BentonSans Book.otf"; sourceTree = "<group>"; };
+		52C13243272B1A3200BB8C33 /* PagingBannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingBannerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,7 @@
 		521BF4752729FB80006E5E9D /* DeliveryFoodUI */ = {
 			isa = PBXGroup;
 			children = (
+				52C13241272B1A1800BB8C33 /* ViewModel */,
 				521BF4A62729FF9F006E5E9D /* Resources */,
 				521BF4A22729FDB8006E5E9D /* Views */,
 				521BF4762729FB80006E5E9D /* DeliveryFoodUIApp.swift */,
@@ -186,6 +193,7 @@
 		521BF4A72729FFA3006E5E9D /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				52C1323E272AE90A00BB8C33 /* BentoSans */,
 				521BF4AB272A0186006E5E9D /* Inter */,
 				521BF4AA272A0181006E5E9D /* Viga */,
 			);
@@ -223,6 +231,31 @@
 				521BF4C1272A3117006E5E9D /* SplashView.swift */,
 			);
 			path = SplashView;
+			sourceTree = "<group>";
+		};
+		52C1323E272AE90A00BB8C33 /* BentoSans */ = {
+			isa = PBXGroup;
+			children = (
+				521E2FF5272B4E6800BCC9D5 /* BentonSans Bold.otf */,
+				52C1323F272AE91B00BB8C33 /* BentonSans Book.otf */,
+			);
+			path = BentoSans;
+			sourceTree = "<group>";
+		};
+		52C13241272B1A1800BB8C33 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				52C13242272B1A1C00BB8C33 /* Onboarding */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		52C13242272B1A1C00BB8C33 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				52C13243272B1A3200BB8C33 /* PagingBannerViewModel.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,12 +363,14 @@
 			files = (
 				521BF4BE272A01B8006E5E9D /* Inter-SemiBold.ttf in Resources */,
 				521BF4AD272A0190006E5E9D /* Inter-VariableFont_slnt,wght.ttf in Resources */,
+				521E2FF6272B4E6E00BCC9D5 /* BentonSans Bold.otf in Resources */,
 				521BF47E2729FB81006E5E9D /* Preview Assets.xcassets in Resources */,
 				521BF4BA272A01B8006E5E9D /* Inter-Bold.ttf in Resources */,
 				521BF47B2729FB81006E5E9D /* Assets.xcassets in Resources */,
 				521BF4BF272A01B8006E5E9D /* Inter-Light.ttf in Resources */,
 				521BF4B9272A01B8006E5E9D /* Inter-ExtraLight.ttf in Resources */,
 				521BF4B7272A01B8006E5E9D /* Inter-Thin.ttf in Resources */,
+				52C13240272AE92300BB8C33 /* BentonSans Book.otf in Resources */,
 				521BF4BD272A01B8006E5E9D /* Inter-Black.ttf in Resources */,
 				521BF4BC272A01B8006E5E9D /* Inter-Regular.ttf in Resources */,
 				521BF4A92729FFB4006E5E9D /* Viga-Regular.ttf in Resources */,
@@ -368,6 +403,7 @@
 				521BF4A52729FDDE006E5E9D /* OnboardingView.swift in Sources */,
 				521BF4C2272A3117006E5E9D /* SplashView.swift in Sources */,
 				521BF4792729FB80006E5E9D /* ContentView.swift in Sources */,
+				52C13244272B1A3200BB8C33 /* PagingBannerViewModel.swift in Sources */,
 				521BF4772729FB80006E5E9D /* DeliveryFoodUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

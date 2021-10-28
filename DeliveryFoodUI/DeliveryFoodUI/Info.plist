@@ -15,6 +15,8 @@
 		<string>Inter-SemiBold.ttf</string>
 		<string>Inter-Thin.ttf</string>
 		<string>Viga-Regular.ttf</string>
+		<string>BentonSans Bold.otf</string>
+		<string>BentonSans Book.otf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
