@@ -13,6 +13,18 @@
 		521BF47E2729FB81006E5E9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521BF47D2729FB81006E5E9D /* Preview Assets.xcassets */; };
 		521BF4892729FB81006E5E9D /* DeliveryFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BF4882729FB81006E5E9D /* DeliveryFoodUITests.swift */; };
 		521BF4942729FB81006E5E9D /* DeliveryFoodUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BF4932729FB81006E5E9D /* DeliveryFoodUIUITests.swift */; };
+		521BF4A52729FDDE006E5E9D /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BF4A42729FDDE006E5E9D /* Onboarding.swift */; };
+		521BF4A92729FFB4006E5E9D /* Viga-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4A82729FFAC006E5E9D /* Viga-Regular.ttf */; };
+		521BF4AD272A0190006E5E9D /* Inter-VariableFont_slnt,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4AC272A018D006E5E9D /* Inter-VariableFont_slnt,wght.ttf */; };
+		521BF4B7272A01B8006E5E9D /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4B5272A01B4006E5E9D /* Inter-Thin.ttf */; };
+		521BF4B8272A01B8006E5E9D /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4B0272A01B4006E5E9D /* Inter-ExtraBold.ttf */; };
+		521BF4B9272A01B8006E5E9D /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4B1272A01B4006E5E9D /* Inter-ExtraLight.ttf */; };
+		521BF4BA272A01B8006E5E9D /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4B2272A01B4006E5E9D /* Inter-Bold.ttf */; };
+		521BF4BB272A01B8006E5E9D /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4B3272A01B4006E5E9D /* Inter-Medium.ttf */; };
+		521BF4BC272A01B8006E5E9D /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4AF272A01B4006E5E9D /* Inter-Regular.ttf */; };
+		521BF4BD272A01B8006E5E9D /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4B4272A01B4006E5E9D /* Inter-Black.ttf */; };
+		521BF4BE272A01B8006E5E9D /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4AE272A01B4006E5E9D /* Inter-SemiBold.ttf */; };
+		521BF4BF272A01B8006E5E9D /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521BF4B6272A01B4006E5E9D /* Inter-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +57,18 @@
 		521BF48F2729FB81006E5E9D /* DeliveryFoodUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeliveryFoodUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		521BF4932729FB81006E5E9D /* DeliveryFoodUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryFoodUIUITests.swift; sourceTree = "<group>"; };
 		521BF4952729FB81006E5E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521BF4A42729FDDE006E5E9D /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		521BF4A82729FFAC006E5E9D /* Viga-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Viga-Regular.ttf"; sourceTree = "<group>"; };
+		521BF4AC272A018D006E5E9D /* Inter-VariableFont_slnt,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-VariableFont_slnt,wght.ttf"; sourceTree = "<group>"; };
+		521BF4AE272A01B4006E5E9D /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		521BF4AF272A01B4006E5E9D /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		521BF4B0272A01B4006E5E9D /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		521BF4B1272A01B4006E5E9D /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		521BF4B2272A01B4006E5E9D /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		521BF4B3272A01B4006E5E9D /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		521BF4B4272A01B4006E5E9D /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		521BF4B5272A01B4006E5E9D /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		521BF4B6272A01B4006E5E9D /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +119,8 @@
 		521BF4752729FB80006E5E9D /* DeliveryFoodUI */ = {
 			isa = PBXGroup;
 			children = (
+				521BF4A62729FF9F006E5E9D /* Resources */,
+				521BF4A22729FDB8006E5E9D /* Views */,
 				521BF4762729FB80006E5E9D /* DeliveryFoodUIApp.swift */,
 				521BF4782729FB80006E5E9D /* ContentView.swift */,
 				521BF47A2729FB81006E5E9D /* Assets.xcassets */,
@@ -128,6 +154,64 @@
 				521BF4952729FB81006E5E9D /* Info.plist */,
 			);
 			path = DeliveryFoodUIUITests;
+			sourceTree = "<group>";
+		};
+		521BF4A22729FDB8006E5E9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				521BF4A32729FDBE006E5E9D /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		521BF4A32729FDBE006E5E9D /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				521BF4A42729FDDE006E5E9D /* Onboarding.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		521BF4A62729FF9F006E5E9D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				521BF4A72729FFA3006E5E9D /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		521BF4A72729FFA3006E5E9D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				521BF4AB272A0186006E5E9D /* Inter */,
+				521BF4AA272A0181006E5E9D /* Viga */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		521BF4AA272A0181006E5E9D /* Viga */ = {
+			isa = PBXGroup;
+			children = (
+				521BF4A82729FFAC006E5E9D /* Viga-Regular.ttf */,
+			);
+			path = Viga;
+			sourceTree = "<group>";
+		};
+		521BF4AB272A0186006E5E9D /* Inter */ = {
+			isa = PBXGroup;
+			children = (
+				521BF4B4272A01B4006E5E9D /* Inter-Black.ttf */,
+				521BF4B2272A01B4006E5E9D /* Inter-Bold.ttf */,
+				521BF4B0272A01B4006E5E9D /* Inter-ExtraBold.ttf */,
+				521BF4B1272A01B4006E5E9D /* Inter-ExtraLight.ttf */,
+				521BF4B6272A01B4006E5E9D /* Inter-Light.ttf */,
+				521BF4B3272A01B4006E5E9D /* Inter-Medium.ttf */,
+				521BF4AF272A01B4006E5E9D /* Inter-Regular.ttf */,
+				521BF4AE272A01B4006E5E9D /* Inter-SemiBold.ttf */,
+				521BF4B5272A01B4006E5E9D /* Inter-Thin.ttf */,
+				521BF4AC272A018D006E5E9D /* Inter-VariableFont_slnt,wght.ttf */,
+			);
+			path = Inter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +317,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521BF4BE272A01B8006E5E9D /* Inter-SemiBold.ttf in Resources */,
+				521BF4AD272A0190006E5E9D /* Inter-VariableFont_slnt,wght.ttf in Resources */,
 				521BF47E2729FB81006E5E9D /* Preview Assets.xcassets in Resources */,
+				521BF4BA272A01B8006E5E9D /* Inter-Bold.ttf in Resources */,
 				521BF47B2729FB81006E5E9D /* Assets.xcassets in Resources */,
+				521BF4BF272A01B8006E5E9D /* Inter-Light.ttf in Resources */,
+				521BF4B9272A01B8006E5E9D /* Inter-ExtraLight.ttf in Resources */,
+				521BF4B7272A01B8006E5E9D /* Inter-Thin.ttf in Resources */,
+				521BF4BD272A01B8006E5E9D /* Inter-Black.ttf in Resources */,
+				521BF4BC272A01B8006E5E9D /* Inter-Regular.ttf in Resources */,
+				521BF4A92729FFB4006E5E9D /* Viga-Regular.ttf in Resources */,
+				521BF4B8272A01B8006E5E9D /* Inter-ExtraBold.ttf in Resources */,
+				521BF4BB272A01B8006E5E9D /* Inter-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521BF4A52729FDDE006E5E9D /* Onboarding.swift in Sources */,
 				521BF4792729FB80006E5E9D /* ContentView.swift in Sources */,
 				521BF4772729FB80006E5E9D /* DeliveryFoodUIApp.swift in Sources */,
 			);
