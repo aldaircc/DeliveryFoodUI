@@ -28,6 +28,7 @@
 		521BF4C2272A3117006E5E9D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BF4C1272A3117006E5E9D /* SplashView.swift */; };
 		521E2FF6272B4E6E00BCC9D5 /* BentonSans Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 521E2FF5272B4E6800BCC9D5 /* BentonSans Bold.otf */; };
 		521E2FFA272B62A000BCC9D5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521E2FF9272B62A000BCC9D5 /* LoginView.swift */; };
+		521E2FFC272B7CA600BCC9D5 /* BentonSans Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 521E2FFB272B7CA600BCC9D5 /* BentonSans Medium.otf */; };
 		52C13240272AE92300BB8C33 /* BentonSans Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52C1323F272AE91B00BB8C33 /* BentonSans Book.otf */; };
 		52C13244272B1A3200BB8C33 /* PagingBannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C13243272B1A3200BB8C33 /* PagingBannerViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -77,6 +78,7 @@
 		521BF4C1272A3117006E5E9D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		521E2FF5272B4E6800BCC9D5 /* BentonSans Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BentonSans Bold.otf"; sourceTree = "<group>"; };
 		521E2FF9272B62A000BCC9D5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		521E2FFB272B7CA600BCC9D5 /* BentonSans Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BentonSans Medium.otf"; sourceTree = "<group>"; };
 		52C1323F272AE91B00BB8C33 /* BentonSans Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BentonSans Book.otf"; sourceTree = "<group>"; };
 		52C13243272B1A3200BB8C33 /* PagingBannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingBannerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -249,6 +251,7 @@
 			children = (
 				521E2FF5272B4E6800BCC9D5 /* BentonSans Bold.otf */,
 				52C1323F272AE91B00BB8C33 /* BentonSans Book.otf */,
+				521E2FFB272B7CA600BCC9D5 /* BentonSans Medium.otf */,
 			);
 			path = BentoSans;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				521BF47B2729FB81006E5E9D /* Assets.xcassets in Resources */,
 				521BF4BF272A01B8006E5E9D /* Inter-Light.ttf in Resources */,
 				521BF4B9272A01B8006E5E9D /* Inter-ExtraLight.ttf in Resources */,
+				521E2FFC272B7CA600BCC9D5 /* BentonSans Medium.otf in Resources */,
 				521BF4B7272A01B8006E5E9D /* Inter-Thin.ttf in Resources */,
 				52C13240272AE92300BB8C33 /* BentonSans Book.otf in Resources */,
 				521BF4BD272A01B8006E5E9D /* Inter-Black.ttf in Resources */,

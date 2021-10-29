@@ -17,6 +17,7 @@
 		<string>Viga-Regular.ttf</string>
 		<string>BentonSans Bold.otf</string>
 		<string>BentonSans Book.otf</string>
+		<string>BentonSans Medium.otf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
