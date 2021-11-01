@@ -30,19 +30,22 @@ struct SignInView: View {
             
             VStack {
                 TextField("Anamwp . . |", text: $userName)
-                TextField("Email", text: $email)
+                    .textFieldStyle(SigInTextFieldStyle(iconName: "ic_profile"))
                 
-                //                TextField("Password", text: $password)
-                //                    .textFieldStyle(PasswordTextFieldStyle())
-                //                    .padding()
+                TextField("Email", text: $email)
+                    .textFieldStyle(SigInTextFieldStyle(iconName: "ic_message"))
                 
                 if self.isHidden {
                     SecureField("Password", text: $password)
-                        .textFieldStyle(PasswordTextFieldStyle())
+                        .textFieldStyle(PasswordTextFieldStyle( isHidden: self.isHidden, iconName: "ic_lock") { value in
+                            self.isHidden = value
+                        })
                         .padding()
                 } else {
                     TextField("Password", text: $password)
-                        .textFieldStyle(PasswordTextFieldStyle())
+                        .textFieldStyle(PasswordTextFieldStyle(isHidden: self.isHidden, iconName: "ic_lock") { value in
+                            self.isHidden = value
+                        })
                         .padding()
                 }
                 
