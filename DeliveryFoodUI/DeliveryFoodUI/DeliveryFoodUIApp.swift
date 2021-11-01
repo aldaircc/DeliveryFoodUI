@@ -11,7 +11,8 @@ import SwiftUI
 struct DeliveryFoodUIApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginView()
+//            LoginView()
+            SignInView()
         }
     }
 }

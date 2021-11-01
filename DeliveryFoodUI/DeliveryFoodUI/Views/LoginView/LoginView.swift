@@ -49,7 +49,7 @@ struct LoginView: View {
                         RoundedRectangle(cornerRadius: 15)
                             .stroke(lineWidth: 1)
                             .foregroundColor(Color.gray)
-                            .shadow(color: Color(.sRGB, red: 90, green: 108, blue: 234, opacity: 0.07), radius: 0, x: 0, y: 1)
+                            .shadow(color: Color(.sRGB, red: 90, green: 108, blue: 234, opacity: 0.07), radius: 0, x: 0, y: 20)
                     )
             }
             .padding(EdgeInsets(top: 40, leading: 20, bottom: 20, trailing: 20))
