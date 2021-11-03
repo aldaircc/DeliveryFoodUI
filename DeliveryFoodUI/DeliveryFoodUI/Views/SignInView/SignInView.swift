@@ -19,16 +19,22 @@ struct SignInView: View {
         VStack(spacing: 0) {
             ZStack(alignment: .center) {
                 Image("Pattern")
-                VStack {
+                VStack(spacing: 0) {
                     Image("Logo")
-                    VStack {
+                    VStack(spacing: 0) {
                         Text("FoodNinja")
+                            .font(.custom("viga", size: 40))
+                            .foregroundColor(.green)
                         Text("Deliever Favorite Food")
+                            .font(.custom("Inter-Medium", size: 13))
                     }
+                    Text("Sign Up For Free")
+                        .font(.custom("BentonSans Bold", size: 20))
+                        .padding(.top, 40)
                 }
             }
             
-            VStack {
+            VStack(spacing: 10) {
                 TextField("Anamwp . . |", text: $userName)
                     .textFieldStyle(SigInTextFieldStyle(iconName: "ic_profile"))
                 
@@ -40,36 +46,67 @@ struct SignInView: View {
                         .textFieldStyle(PasswordTextFieldStyle( isHidden: self.isHidden, iconName: "ic_lock") { value in
                             self.isHidden = value
                         })
-                        .padding()
                 } else {
                     TextField("Password", text: $password)
                         .textFieldStyle(PasswordTextFieldStyle(isHidden: self.isHidden, iconName: "ic_lock") { value in
                             self.isHidden = value
                         })
-                        .padding()
                 }
                 
             }
+            .padding(.horizontal)
             
-            VStack {
-                Button(action: {}, label: {
-                    Text("Keep Me Signed in")
+            VStack(alignment: .leading, spacing: 8) {
+                HStack {
+                    Button(action: {}, label: {
+                        HStack {
+                            Image("ic_check")
+                                .offset(x: 18.0, y: 25.0)
+                                .frame(width: 22, height: 22, alignment: .center)
+                            Text("Keep Me Signed in")
+                                .foregroundColor(.blackLabel)
+                        }
+                    })
+                    Spacer()
+                }
+                
+                HStack {
+                    Button(action: {}, label: {
+                        HStack {
+                            Image("ic_check")
+                                .offset(x: 18, y: 25)
+                                .frame(width: 22, height: 22, alignment: .center)
+                            Text("Email Me About Special Pricing")
+                                .foregroundColor(.blackLabel)
+                        }
+                    })
+                    Spacer()
+                }
+            }
+            .padding(EdgeInsets(top: 12, leading: 25, bottom: 0, trailing: 0))
+            
+            VStack(spacing: 15) {
+                Button(action: {
+                    self.isHidden.toggle()
+                    
+                }, label: {
+                    Text("Create Account")
+                        .foregroundColor(.white)
+                        .fontWeight(.bold)
+                        .padding()
                 })
+                .background(Color.green)
+                .cornerRadius(15.0)
+                
                 Button(action: {}, label: {
-                    Text("Email Me About Special Pricing")
+                    Text("already have an account?")
+                        .font(.custom("BentonSans Medium", size: 12))
+                        .underline()
+                        .foregroundColor(Color.green)
                 })
             }
+            .padding(.top, 15)
             
-            
-            Button(action: {
-                self.isHidden.toggle()
-                
-            }, label: {
-                Text("Create Account")
-            })
-            Button(action: {}, label: {
-                Text("already have an account?")
-            })
             Spacer()
         }
         .ignoresSafeArea()

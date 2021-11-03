@@ -25,6 +25,5 @@ struct SigInTextFieldStyle: TextFieldStyle {
         )
         .background(Color.white)
         .cornerRadius(15.0)
-        .padding()
     }
 }
