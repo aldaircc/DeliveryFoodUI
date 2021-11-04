@@ -30,7 +30,7 @@ struct SignInView: View {
                     }
                     Text("Sign Up For Free")
                         .font(.custom("BentonSans Bold", size: 20))
-                        .padding(.top, 40)
+                        .padding(.top, 30)
                 }
             }
             

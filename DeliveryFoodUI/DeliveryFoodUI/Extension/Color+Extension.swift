@@ -13,4 +13,5 @@ extension Color {
     static let blackLabel = Color.init("BlackLabel")
     static let grayBorder = Color.init("GrayBorder")
     static let grayPlaceHolder = Color.init("GrayPlaceholder")
+    static let orangeBackButton = Color.init("OrangeBackButton")
 }
