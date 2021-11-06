@@ -14,4 +14,5 @@ extension Color {
     static let grayBorder = Color.init("GrayBorder")
     static let grayPlaceHolder = Color.init("GrayPlaceholder")
     static let orangeBackButton = Color.init("OrangeBackButton")
+    static let appWhiteBg001 = Color.init("AppWhiteBg001")
 }
