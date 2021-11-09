@@ -37,6 +37,8 @@
 		52420DC327341E5E00B926F7 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52420DC227341E5E00B926F7 /* SignUpView.swift */; };
 		52420DC52734235600B926F7 /* NormalTextfieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52420DC42734235600B926F7 /* NormalTextfieldStyle.swift */; };
 		52633F3727398DAE00A77006 /* NotificationResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52633F3627398DAE00A77006 /* NotificationResultView.swift */; };
+		52633F422739A8C300A77006 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52633F412739A8C300A77006 /* ImagePickerView.swift */; };
+		52633F442739A9A000A77006 /* ImagePickerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52633F432739A9A000A77006 /* ImagePickerCoordinator.swift */; };
 		52BB2123272FA9C700476EA4 /* SigInTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB2122272FA9C700476EA4 /* SigInTextFieldStyle.swift */; };
 		52C13240272AE92300BB8C33 /* BentonSans Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52C1323F272AE91B00BB8C33 /* BentonSans Book.otf */; };
 		52C13244272B1A3200BB8C33 /* PagingBannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C13243272B1A3200BB8C33 /* PagingBannerViewModel.swift */; };
@@ -96,6 +98,8 @@
 		52420DC227341E5E00B926F7 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		52420DC42734235600B926F7 /* NormalTextfieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalTextfieldStyle.swift; sourceTree = "<group>"; };
 		52633F3627398DAE00A77006 /* NotificationResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationResultView.swift; sourceTree = "<group>"; };
+		52633F412739A8C300A77006 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		52633F432739A9A000A77006 /* ImagePickerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCoordinator.swift; sourceTree = "<group>"; };
 		52BB2122272FA9C700476EA4 /* SigInTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigInTextFieldStyle.swift; sourceTree = "<group>"; };
 		52C1323F272AE91B00BB8C33 /* BentonSans Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BentonSans Book.otf"; sourceTree = "<group>"; };
 		52C13243272B1A3200BB8C33 /* PagingBannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingBannerViewModel.swift; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 		521BF4752729FB80006E5E9D /* DeliveryFoodUI */ = {
 			isa = PBXGroup;
 			children = (
+				52633F3B2739A88600A77006 /* Coordinator */,
 				523FA8EF2733318400854FB4 /* Extension */,
 				52411131272C7D0A005A118A /* Styles */,
 				52C13241272B1A1800BB8C33 /* ViewModel */,
@@ -192,6 +197,7 @@
 		521BF4A22729FDB8006E5E9D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				52633F3E2739A8A300A77006 /* Custom */,
 				52633F3527398D9000A77006 /* NotificationResult */,
 				5241112E272C7890005A118A /* SignInView */,
 				521E2FF8272B629700BCC9D5 /* LoginView */,
@@ -303,6 +309,30 @@
 				52633F3627398DAE00A77006 /* NotificationResultView.swift */,
 			);
 			path = NotificationResult;
+			sourceTree = "<group>";
+		};
+		52633F3B2739A88600A77006 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				52633F3C2739A88A00A77006 /* ImageView */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		52633F3C2739A88A00A77006 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				52633F432739A9A000A77006 /* ImagePickerCoordinator.swift */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		52633F3E2739A8A300A77006 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				52633F412739A8C300A77006 /* ImagePickerView.swift */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 		52C1323E272AE90A00BB8C33 /* BentoSans */ = {
@@ -481,10 +511,12 @@
 				52420DC327341E5E00B926F7 /* SignUpView.swift in Sources */,
 				521BF4C2272A3117006E5E9D /* SplashView.swift in Sources */,
 				52411133272C7D22005A118A /* PasswordTextFieldStyle.swift in Sources */,
+				52633F442739A9A000A77006 /* ImagePickerCoordinator.swift in Sources */,
 				52420DC52734235600B926F7 /* NormalTextfieldStyle.swift in Sources */,
 				521BF4792729FB80006E5E9D /* ContentView.swift in Sources */,
 				52C13244272B1A3200BB8C33 /* PagingBannerViewModel.swift in Sources */,
 				52633F3727398DAE00A77006 /* NotificationResultView.swift in Sources */,
+				52633F422739A8C300A77006 /* ImagePickerView.swift in Sources */,
 				521BF4772729FB80006E5E9D /* DeliveryFoodUIApp.swift in Sources */,
 				522B67A1273632A90060FE3C /* UploadPhotoView.swift in Sources */,
 				522B679F2735EF760060FE3C /* PaymentMethodView.swift in Sources */,
